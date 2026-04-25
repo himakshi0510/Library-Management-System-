@@ -1,3 +1,3 @@
 # data storage
-books = []
+books = {}
 issue_books = []

@@ -5,6 +5,9 @@ def add_books():
     if book_name in books:
         print("Book Already Available...")
     else:
-        books.append(book_name)
+        books[book_name] = {
+            "student_name": None,
+            "days" :0
+        }
         print(f"Book Added : {book_name}")
 
